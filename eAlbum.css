@@ -1,0 +1,60 @@
+
+
+body{	
+	top:0px;
+	margin: 0px;
+	
+}
+
+h1{
+	margin:0px;
+	padding-left:100px;
+    padding-top: 50px;
+	
+	//position: relative;
+}
+
+h3{
+	padding-left:100px;
+}
+
+.headpart{
+	background:#F5F5F5;
+	height:200px;
+}
+
+.serchArea{
+	
+}
+
+.nevigationBar{
+	float:left;
+	display:block;
+	width:1000px;
+	padding-left:100px;
+	inline-height:30px;
+	list-style-type:none;
+}
+
+.nevigationBar li{
+	display:inline;
+//	width:100px;
+	
+}
+
+.nevigationBar a:link{
+	background-color:#BBFFFF;
+	height:30px;
+	width:100px;
+	padding-left:0px;
+	padding-right:0px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+}
+.nevigationBar a:hover,a:active
+{
+	background-color:#6495ED;
+}
+
+
