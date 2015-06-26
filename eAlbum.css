@@ -40,9 +40,8 @@ h3{
 .nevigationBar li{
 	display:inline;
 	height:45px;
-	width:100%;
-  	position:middle;
-  	padding-left:0px;
+	width:150px;
+  	position:center;//middle;
 	padding-left:0px;
 	padding-right:0px;
  	font-family:"\5FAE\8F6F\96C5\9ED1"; 
@@ -55,7 +54,6 @@ h3{
 	background-color:#FFFAFA;
 	inline-height:100%;
 	width:100px;
-
     font-weight:bold;
     color:#000;
     text-align:center;
