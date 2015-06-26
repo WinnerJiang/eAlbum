@@ -31,6 +31,7 @@ h3{
 	float:left;
 	display:block;
 	width:1000px;
+	height:30px;
 	padding-left:100px;
 	inline-height:30px;
 	list-style-type:none;
@@ -38,23 +39,34 @@ h3{
 
 .nevigationBar li{
 	display:inline;
-//	width:100px;
+	height:45px;
+	width:100%;
+  	position:middle;
+  	padding-left:0px;
+	padding-left:0px;
+	padding-right:0px;
+ 	font-family:"\5FAE\8F6F\96C5\9ED1"; 
+    font-size:24px;
 	
 }
 
 .nevigationBar a:link{
-	background-color:#BBFFFF;
-	height:30px;
+	display:inline-block;
+	background-color:#FFFAFA;
+	inline-height:100%;
 	width:100px;
-	padding-left:0px;
-	padding-right:0px;
+
     font-weight:bold;
-    color:#FFFFFF;
+    color:#000;
     text-align:center;
+    text-decoration:none;
+    
 }
+
 .nevigationBar a:hover,a:active
 {
 	background-color:#6495ED;
+	color:#FFFFFF;
 }
 
 
