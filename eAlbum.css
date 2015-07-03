@@ -16,55 +16,58 @@ h1{
 
 h3{
 	padding-left:100px;
+	color:#999999;
+	font-family:"\6977\4F53";
+	font-size:18px;
 }
 
 .headpart{
 	background:#F5F5F5;
-	height:200px;
+	height:194px;
 }
 
-.serchArea{
+.searchArea{
 	
 }
 
-.nevigationBar{
+.navigationBar{
 	float:left;
-	display:block;
-	width:1000px;
-	height:30px;
-	padding-left:100px;
-	inline-height:30px;
-	list-style-type:none;
-}
-
-.nevigationBar li{
-	display:inline;
+	width:1090px;
 	height:45px;
-	width:150px;
-  	position:center;//middle;
+	margin:0 0 0 100px;
 	padding-left:0px;
-	padding-right:0px;
- 	font-family:"\5FAE\8F6F\96C5\9ED1"; 
-    font-size:24px;
 	
+	list-style-type:none;
+	background-color:#fff;
 }
 
-.nevigationBar a:link{
+.navigationBar li{
+	position:relative;
+	top:10px;
+	display:inline;
+	padding:10px;
+
+ 	font-family:"\5FAE\8F6F\96C5\9ED1"; 
+    font-size:18px;
+}
+
+.navigationBar a:link{
 	display:inline-block;
 	background-color:#FFFAFA;
-	inline-height:100%;
-	width:100px;
-    font-weight:bold;
-    color:#000;
+	//inline-height:100%;
+	
+    //font-weight:bold;
+   // color:#000;
     text-align:center;
     text-decoration:none;
     
 }
 
-.nevigationBar a:hover,a:active
+.navigationBar li:hover,li:active
 {
 	background-color:#6495ED;
 	color:#FFFFFF;
+	cursor:pointer;
 }
 
 
