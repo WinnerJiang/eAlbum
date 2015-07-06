@@ -1,9 +1,16 @@
 
 
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter|Open+Sans:400italic,600italic,700italic,400,700,600|Varela+Round);
+
 body{	
 	top:0px;
 	margin: 0px;
 	
+}
+.pageContainer{
+	width: 1090px;
+	margin: 0 auto;
+
 }
 
 h1{
@@ -11,19 +18,29 @@ h1{
 	padding-left:100px;
     padding-top: 50px;
 	
-	//position: relative;
 }
 
 h3{
-	padding-left:100px;
+	
 	color:#999999;
-	font-family:"\6977\4F53";
-	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
 }
 
 .headpart{
 	background:#F5F5F5;
-	height:194px;
+	height:184px;
+}
+
+.logoArea{
+	display: block;
+	height: 90px;
+	width: 700px;
+	background: url("img/logo.gif") no-repeat -18px -20px;
+	
+
+
 }
 
 .searchArea{
@@ -32,9 +49,9 @@ h3{
 
 .navigationBar{
 	float:left;
-	width:1090px;
+	width:100%;
 	height:45px;
-	margin:0 0 0 100px;
+	margin:0;
 	padding-left:0px;
 	
 	list-style-type:none;
@@ -43,22 +60,22 @@ h3{
 
 .navigationBar li{
 	position:relative;
-	top:10px;
-	display:inline;
-	padding:10px;
+	width: 180px;
+	display:inline-block;
+	line-height: 45px;
+	vertical-align: top;
+    height: 100%;
 
- 	font-family:"\5FAE\8F6F\96C5\9ED1"; 
-    font-size:18px;
+
+ 	font-family: 'Architects Daughter', cursive;
+    font-size:24px;
 }
 
-.navigationBar a:link{
+.navigationBar a{
 	display:inline-block;
-	background-color:#FFFAFA;
-	//inline-height:100%;
-	
-    //font-weight:bold;
-   // color:#000;
     text-align:center;
+    width: 100%;
+    height: 100%;
     text-decoration:none;
     
 }
