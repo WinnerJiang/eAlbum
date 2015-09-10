@@ -21,11 +21,13 @@ $(document).ready(function(){
 			flag="go_to_left";
 		}
 		if(flag=="go_to_right"){
-			$(".imgCarouselArea").animate({left:x},500);
+			$(".imgCarouselArea").animate({left:x+'px'},1000);
+			
 			x+=1080;
 		}
 		if(flag=="go_to_left"){
-			$(".imgCarouselArea").animate({left:x},500);
+			$(".imgCarouselArea").animate({left:x+'px'},1000);
+			
 			x-=1080;
 		}
 	};

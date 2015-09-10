@@ -84,36 +84,39 @@ h3{
 
 .imgCarouselMask{
 	position:relative;
-	width:100%;
+	width:1080px;
 	height:450px;
 	overflow:hidden;
 }
 
-.imgCarouselArea ul {
+.imgCarouselArea {
 	position:absolute;
 	/*line-height:100%;*/
+	list-style-type:none;
 	margin:0;
 	padding:0;
 	left:0;
 	width:3240px;
 	height:450px;
-	list-style-type:none;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	
 	
 }
 
 .imgCarouselArea li{
-	margin-left:-39px;
+	/*margin-left:-40px;*/
 	padding:0;
 	left:0;
 	width:1080px;
 	height:450px;
 	
-	
 	float:left;
+	
 	
 	/*position:relative;
 	display:inline-block;*/	
+}
+.navCarouselCtrl{
+	
 }
 
