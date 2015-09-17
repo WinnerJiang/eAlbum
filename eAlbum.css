@@ -115,33 +115,36 @@ h3{
 }
 
 
-.leftIndexOfCarousel{
+.leftIndexOfCarousel,.rightIndexOfCarousel{
 	position:relative;
 	width:50px;
 	height:80px;
+	top:50%;
+	background:#6495ED;
+	opacity:0.7;
+	margin:0 auto;
+	text-align:center;
+}
+
+.leftIndexOfCarousel{	
 	float:left;
-	top:160px;
-	z-index:10px;
-	background:#FFF;
-	opacity:0.5;
 	border-radius:0 10px 10px 0;
 }
 
 .rightIndexOfCarousel{
-	position:relative;
-	width:50px;
-	height:80px;
 	float:right;
-	top:160px;
-	z-index:10px;
-	background:#FFF;
-	opacity:0.5;
 	border-radius:10px 0 0 10px;
 }
+
 .leftIndexOfCarousel >a,.rightIndexOfCarousel >a{
+	display:block;
+	margin:0;
+	vertical-align:middle;
 	font-weight:bold;
-	padding: auto;
+	line-height:80px; /*why 100% cannot work?*/
 	
+	font-size:22px;
+	color:#fff;	
 	
 }
 
@@ -153,6 +156,13 @@ h3{
 	width:100%;
 	height:50px;
 	z-index:10;
+	
+}
+.navCarouselCtrl >div{
+    margin:0 auto;
+	height:45px;
+	width:180px;
+	
 }
 
 .indexOfCarousel{
@@ -166,5 +176,6 @@ h3{
 	border-radius:7.5px;
 	
 	background:#FFF;
+	
 }
 
