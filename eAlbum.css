@@ -114,24 +114,39 @@ h3{
 	display:inline-block;*/	
 }
 
+/*
+	**to make the index at the center of left/right border
+	**Jianfeng's idea
+*/
+.leftIndexContainer,.rightIndexContainer{
+	position:relative;
+	top:50%;
+	overflow:visiable;
+	width:50px;
+	height:80px;
+	
+}
+
 
 .leftIndexOfCarousel,.rightIndexOfCarousel{
 	position:relative;
 	width:50px;
 	height:80px;
-	top:50%;
+	/*top:50%;*/
+	bottom:50%;
+	
 	background:#6495ED;
 	opacity:0.7;
 	margin:0 auto;
 	text-align:center;
 }
 
-.leftIndexOfCarousel{	
+.leftIndexOfCarousel,.leftIndexContainer{	
 	float:left;
 	border-radius:0 10px 10px 0;
 }
 
-.rightIndexOfCarousel{
+.rightIndexOfCarousel,.rightIndexContainer{
 	float:right;
 	border-radius:10px 0 0 10px;
 }
@@ -176,6 +191,5 @@ h3{
 	border-radius:7.5px;
 	
 	background:#FFF;
-	
 }
 
