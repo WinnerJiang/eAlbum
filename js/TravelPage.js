@@ -7,6 +7,12 @@
 
 $(document).ready(function(){
 
+	// for the world map
+	require.config({
+		paths:{
+			echarts:'http://echarts.baidu.com/build/dist'
+		}
+	});
 	require(
 			[
 			  	'echarts',
