@@ -1,46 +1,12 @@
 /********************************
- *        this file used for the home page
+ *        this file used for the travel page
  *        Author: WinnerJiang
- *        Date: 2015-07-08
+ *        Date: 2015-11-05
  * 
  ********************************/
- 
-$(document).ready(function(){
-	
 
-	//Carousel Image
-	var x=0;
-	var flag="go_to_left";
-	
-	var carouselImage = function(){
-		//for confine
-		if(x==-3240){
-			flag="go_to_right";
-		}
-		if(x==0){
-			flag="go_to_left";
-		}
-		if(flag=="go_to_right"){
-			$(".imgCarouselArea").animate({left:x+'px'},3000);
-			
-			x+=1080;
-		}
-		if(flag=="go_to_left"){
-			$(".imgCarouselArea").animate({left:x+'px'},3000);
-			
-			x-=1080;
-		}
-	};
-	
-	setInterval(carouselImage, 1000);
-	
-	// for the world map
-	require.config({
-		paths:{
-			echarts:'http://echarts.baidu.com/build/dist'
-		}
-	});
-	
+$(document).ready(function(){
+
 	require(
 			[
 			  	'echarts',
@@ -262,15 +228,5 @@ $(document).ready(function(){
 					})
 				
 				myChart.setOption(option);
-			}
-			);
-			
-	
-	
-	
-	
-	
-	
-	
 	
 });
